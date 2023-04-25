@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo">
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Form"
+         android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal">
+
+    </TextView>
+
+    <TextView
+        android:text="Fullname"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+
+        android:inputType="text"
+        android:layout_marginHorizontal="24dp"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+
+    <TextView
+        android:text="Address"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your address"
+
+        android:inputType="text"
+        android:layout_marginHorizontal="24dp"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:text="Date of Birth"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mm/dd/yyyy"
+
+        android:inputType="text"
+        android:layout_marginHorizontal="24dp"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:text="Gender"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"/>
+
+
+    <RadioGroup
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginLeft="10dp"
+
+            android:text="Male" />
+
+        <RadioButton
+
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Female" />
+
+        <RadioButton
+
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Other" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:text="Create Password"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Create new Password"
+
+        android:inputType="text"
+        android:layout_marginHorizontal="24dp"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+
+
+    <Button
+        android:id="@+id/btRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="Register" />
+
+
+
+    <TextView
+        android:text="If you have already account?"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_gravity="center">
+
+    </TextView>
+
+
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="Login" />
+
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dk.simpleInterestActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Simple Interset"
+        android:textSize="24dp"
+        android:textColor="#FAFAFA"
+        android:background="#0B0B0B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="24dp"
+        android:id="@+id/tvsimple"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Principle"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvsimple"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/tvp"/>
+
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint=" Enter Principle"
+        app:layout_constraintStart_toStartOf="@+id/tvp"
+        app:layout_constraintTop_toBottomOf="@+id/tvp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/etp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="@id/etp"
+        app:layout_constraintTop_toBottomOf="@+id/etp"
+        android:id="@+id/tvr"
+       />
+
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint=" Enter Rate"
+        app:layout_constraintStart_toStartOf="@+id/tvr"
+        app:layout_constraintTop_toBottomOf="@+id/tvr"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="24dp"
+        android:id="@+id/etr"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/etr"
+        android:id="@+id/tvt"
+        />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Time"
+        app:layout_constraintStart_toStartOf="@+id/tvt"
+        app:layout_constraintTop_toBottomOf="@+id/tvt"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="24dp"
+        android:id="@+id/ett"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:backgroundTint="@color/black"
+        android:id="@+id/btcalculate"
+        app:layout_constraintTop_toBottomOf="@+id/ett"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/btcalculate"
+        android:text=""
+        android:textColor="@color/black"
+
+        app:layout_constraintStart_toStartOf="@id/ett"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:id="@+id/tvcalculate"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
